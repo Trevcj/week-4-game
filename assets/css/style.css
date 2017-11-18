@@ -1,0 +1,98 @@
+body {
+	background-image: url("../images/pixle.png");
+}
+
+#mainBody {
+	background-image: url("../images/animatedLeaves.gif");
+	background-repeat: no-repeat;
+	width: 800px;
+	height: 336px;
+	margin: 0px;
+	float: left;
+	border: solid #f8411e 2px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#header {
+	
+	background-color: none;
+	width: 100%;
+}
+#fightNight {
+	padding-left: 35px;
+}
+.charThumb {
+	height:70px;
+	width: 60px;
+	background-image: url("../images/pixle.png");
+	margin: 20px 0px 20px 0px; 
+	border: solid #f8411e 2px;
+}
+.enmyChars {
+	height:70px;
+	width: 60px;
+	background-image: url("../images/pixle.png");
+	margin: 20px 0px 20px 0px; 
+	border: solid #f8411e 2px;
+	
+}
+#chooseChars {
+	float: left;
+	text-align: center;	
+}
+
+.playerImage {
+	height: 200px;
+	width: auto;
+	/*margin-left: 70px;*/
+	margin-top: 30px;
+}
+.enmyImage {
+	height: 200px;
+	width: auto;
+	margin-top: 30px;
+	margin-right: 50px;
+	
+}
+
+
+#enemyCharArea {
+	margin-left: 360px;
+	text-align: right;
+}
+#playerCharArea{
+	
+	margin-left: 70px
+}
+.btn {
+  background: #f8411e;
+  background-image: -webkit-linear-gradient(top, #f8411e, #bd290f);
+  background-image: -moz-linear-gradient(top, #f8411e, #bd290f);
+  background-image: -ms-linear-gradient(top, #f8411e, #bd290f);
+  background-image: -o-linear-gradient(top, #f8411e, #bd290f);
+  background-image: linear-gradient(to bottom, #f8411e, #bd290f);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 38px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  
+  margin: 10px 25px 10px 25px;
+}
+
+#attack {
+	margin-left: 350px;
+}
+
+.btn:hover {
+  background: #ff0000;
+  background-image: -webkit-linear-gradient(top, #ff0000, #b30e0e);
+  background-image: -moz-linear-gradient(top, #ff0000, #b30e0e);
+  background-image: -ms-linear-gradient(top, #ff0000, #b30e0e);
+  background-image: -o-linear-gradient(top, #ff0000, #b30e0e);
+  background-image: linear-gradient(to bottom, #ff0000, #b30e0e);
+  text-decoration: none;
+}
